@@ -7,7 +7,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 describe('🚀 SUITE DE PRUEBAS AUTOMATIZADAS DE API - MERCADO LIBRE (10 CASOS)', () => {
 
-    // Ejecuta un pequeño delay antes de cada test para evitar el maldito error 429
+    // Ejecuta un pequeño delay antes de cada test para evitar el error 429
     beforeEach(async () => {
         await delay(1000);
     });
